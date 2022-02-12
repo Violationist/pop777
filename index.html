@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POP777</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap');
+    </style> 
+<body onload="startCount()">
+    <a href="https://www.youtube.com/channel/UCS-XeL8RkZW30Rb9T7eaW0A">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" class="bi bi-youtube" viewBox="0 0 16 16">
+            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+        </svg>
+    </a>
+    <div class="container">
+        <h1>POP777</h1>
+        <p id="score">0</p>
+        <br />
+        <img src="popcat1.png" alt="Invalid" id="popcat1" height="400px">
+        <div class="tabs">
+            <div class="tab">
+               <input type="checkbox" id="chck1">
+               <label class="tab-label" for="chck1">
+                <i class="fas fa-trophy" style="color: gold; margin: 0px 10px 0px 10px; margin-left: -25px;
+                margin-right: 30px;"></i>
+                #1 <span class="flag-icon flag-icon-hk" style="margin: 0px 10px 0px 10px;"></span>120.3B &nbsp;
+                LeaderBoard &nbsp; <span class="flag-icon flag-icon-my" style="margin: 0px 10px 0px 10px;"></span>
+                <span id="my_score">10000</span>
+                </label>
+
+               <div class="tab-content">
+                    <table id="table">
+                        <tr class="bordered" id="somerow">
+                            <td></td>
+                            <td><i class="fa fa-globe" style="color: blue;"></i></td>
+                            <td>WorldWide</td>
+                            <td id="wide_score">455,615,518,558</td>
+                        </tr>
+                        <tr class="bordered">
+                            <td><i class='fas fa-medal' style="color: gold;"></i></td>
+                            <td><span class="flag-icon flag-icon-hk"></span></td>
+                            <td>Hong Kong</td>
+                            <td id="wide_score">19</td>
+                        </tr>
+                        <tr class="bordered"> 
+                            <td><i class='fas fa-medal' style="color: silver;"></i></td>
+                            <td><span class="flag-icon flag-icon-tw"></span></td>
+                            <td>Taiwan</td>
+                            <td id="wide_score">14</td>
+                        </tr>
+                        <tr class="bordered">
+                            <td><i class='fas fa-medal' style="color: brown;"></i></td>
+                            <td><span class="flag-icon flag-icon-th"></span></td>
+                            <td>Thailand</td>
+                            <td id="wide_score">13</td>
+                        </tr>
+                        <tr class="bordered">
+                            <td>4</td>
+                            <td><span class="flag-icon flag-icon-jp"></span></td>
+                            <td>Japan</td>
+                            <td id="wide_score">11</td>
+                        </tr>
+                        <tr class="bordered">
+                            <td>5</td>
+                            <td><span class="flag-icon flag-icon-my"></span></td>
+                            <td><b>Malaysia</b></td>
+                            <td id="wide_score">10000</td>
+                        </tr>
+                        <tr class="bordered">
+                            <td>6</td>
+                            <td><span class="flag-icon flag-icon-fi"></span></td>
+                            <td>Finland</td>
+                            <td id="wide_score">17</td>
+                        </tr>
+                        <tr class="bordered">
+                            <td>7</td>
+                            <td><span class="flag-icon flag-icon-se"></span></td>
+                            <td>Sweden</td>
+                            <td id="wide_score">13</td>
+                        </tr>
+                        <tr class="bordered">
+                            <td>8</td>
+                            <td><span class="flag-icon flag-icon-pl"></span></td>
+                            <td>Poland</td>
+                            <td id="wide_score">14</td>
+                        </tr>
+                        <tr class="bordered">
+                            <td>9</td>
+                            <td><span class="flag-icon flag-icon-dk"></span></td>
+                            <td>Denmark</td>
+                            <td id="wide_score">18</td>
+                        </tr>
+                        <tr class="bordered">
+                            <td>10</td>
+                            <td><span class="flag-icon flag-icon-id"></span></td>
+                            <td>Indonesia</td>
+                            <td id="wide_score">12</td>
+                        </tr>
+                        <tr class="bordered">
+                            <td>11</td>
+                            <td><span class="flag-icon flag-icon-hu"></span></td>
+                            <td>Hungary</td>
+                            <td id="wide_score">11</td>
+                        </tr>
+                        <tr class="bordered">
+                            <td>12</td>
+                            <td><span class="flag-icon flag-icon-rs"></span></td>
+                            <td>Serbia</td>
+                            <td id="wide_score">11</td>
+                        </tr>
+                    </table>
+               </div>
+
+            </div>
+         </div>
+    </div>
+</body>
+</html>
