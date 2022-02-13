@@ -36,6 +36,9 @@ button{
     border: none;
     outline: none;
 }
+.imgicon{
+    float: right;
+}
 .tabs {
     margin-top: 4%;
     border-radius: 8px;
